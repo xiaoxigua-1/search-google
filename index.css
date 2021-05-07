@@ -113,3 +113,21 @@ html, body {
         height: 40px;
     }
 }
+
+@media (max-width: 450px) {
+    #search {
+        width: 330px;
+        height: 44px; 
+    }
+
+    #search-input {
+        width: 249px;
+        height: 40px;
+    }
+
+    #search-box {
+        right: 10px;
+        width: 249px;
+        height: 40px;
+    }
+}
