@@ -95,3 +95,21 @@ html, body {
         width: 0;
     }
 }
+
+@media (max-width: 612px) {
+    #search {
+        width: 380px;
+        height: 44px; 
+    }
+
+    #search-input {
+        width: 299px;
+        height: 40px;
+    }
+
+    #search-box {
+        right: 10px;
+        width: 299px;
+        height: 40px;
+    }
+}
