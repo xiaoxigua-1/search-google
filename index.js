@@ -5,9 +5,9 @@ if (search !== undefined) {
         document.querySelector("#cursor img").src = "./image/cursor-input.png";
     }, 3000);
     setTimeout(() => {
-        document.getElementById("search-box").style = "animation: input 3s;width: 0;";
+        document.getElementById("search-box").style = "width: 0;";
     }, 3000);
     setTimeout(() => {
-        window.location = `https://www.google.com/search?q=${search}`;
+        // window.location = `https://www.google.com/search?q=${search}`;
     }, 6000);
 }
