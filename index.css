@@ -57,6 +57,7 @@ html, body {
     left: 20%;
     top: 50%;
     transform: translate(0, -50%);
+    z-index: 999;
 }
 
 #cursor img {
