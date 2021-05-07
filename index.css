@@ -73,7 +73,6 @@ html, body {
     width: 500px;
     height: 40px;
     background-color: #ffff;
-    transition: width 3s;
 }
 
 @keyframes cursor {
