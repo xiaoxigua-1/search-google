@@ -1,6 +1,6 @@
-let search = decodeURI(document.URL.split("#")[1]);
+let search = document.URL.split("#")[1];
 if (search !== undefined) {
-    document.getElementById("search-input").value = search;
+    document.getElementById("search-input").value = decodeURI(search);
     setTimeout(() => {
         document.querySelector("#cursor img").src = "./image/cursor-input.png";
     }, 3000);
