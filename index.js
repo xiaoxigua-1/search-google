@@ -8,6 +8,6 @@ if (search !== undefined) {
         document.getElementById("search-box").style = "width: 0;";
     }, 3000);
     setTimeout(() => {
-        // window.location = `https://www.google.com/search?q=${search}`;
+        window.location = `https://www.google.com/search?q=${search}`;
     }, 6000);
 }
