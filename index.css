@@ -66,13 +66,22 @@ html, body {
 }
 
 #search-box {
-    position: absolute;
-    right: 50px;
-    top: 50%;
-    transform: translate(0, -50%);
-    width: 500px;
-    height: 40px;
-    background-color: #ffff;
+    width: 0;
+    height: 22px;
+    word-break: break-all;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 50px;
+    animation: caret 1s steps(1) infinite;
+    color: #ffffff;
+    overflow: hidden;
+    font-family: 'Monaco';
+    border-right: .05em solid;
+}
+
+@keyframes caret {
+	50% { border-right-color: transparent; }
 }
 
 @keyframes cursor {
