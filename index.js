@@ -26,7 +26,7 @@ if (search !== undefined) {
     }, 3000);
     setTimeout(() => {
         document.getElementById("search-box").style = 
-            `color: #000000;transition: width 3s;width: ${textSize("18px", "Monaco", decodeURI(search)).width}px;`;
+            `color: #000000;--v: ${textSize("18px", "Monaco", decodeURI(search)).width + 18}px;animation: key 3s steps(${search.length + 1}) 1, caret ${1 / (decodeURI(search).length / 3)}s steps(1) infinite;`;
     }, 3700);
     setTimeout(() => {
         window.location = `https://www.google.com/search?q=${search}`;
